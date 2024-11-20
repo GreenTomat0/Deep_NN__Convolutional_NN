@@ -6,7 +6,7 @@ This repository implements two APIs for building and training convolutional neur
 The Sequential API is used to solve a binary classification problem: identifying whether faces in 64x64 RGB images are happy (smiling) or not.
 
 Example Input:<br/>
-<img src="images/sad_face.png" style="width: 64px; height: 64px;" />
+<img src="images/sad_face.png" style="width: 128px; height: 128px;" />
 <figcaption>Sad face</figcaption>
 
 Model Architecture: ZeroPadding2D -> Conv2D -> BatchNormalization -> ReLU -> MaxPooling2D -> Flatten -> Dense
