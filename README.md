@@ -8,7 +8,7 @@ The Sequential API is used to solve a binary classification problem: identifying
 Example Input:<br/>
 <img src="images/sad_face.png" style="width: 128px; height: 128px;" />
 <figcaption>Sad face</figcaption>
-<br/>
+<p></p>
 Model Architecture: ZeroPadding2D -> Conv2D -> BatchNormalization -> ReLU -> MaxPooling2D -> Flatten -> Dense
 
 2. Functional API: Multi-Class Classification
@@ -17,5 +17,5 @@ The Functional API is designed for classifying hand gesture numbers (e.g., "1", 
 Example Input:<br/>
 <img src="images/two_sign.png" />
 <figcaption>Sign two</figcaption>
-<br/>
+<p></p>
 Model Architecture: Conv2D -> ReLU -> MaxPooling2D -> Conv2D -> ReLU -> MaxPooling2D -> Flatten -> Dense
